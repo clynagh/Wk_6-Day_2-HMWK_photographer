@@ -23,4 +23,11 @@ class Photographer{
     this.collection.add(camera);
   }
 
+  public Camera removeCamera(){
+    if(cameraCount() > 0) {
+      return collection.remove(0);
+    }
+    return null;
+  }
+
 }

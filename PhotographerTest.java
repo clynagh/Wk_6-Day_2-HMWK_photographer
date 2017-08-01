@@ -27,6 +27,13 @@ public void canAddCamera(){
   assertEquals(2, photographer.cameraCount());
 }
 
+@Test
+public void canRemoveCamera(){
+photographer.addCamera(digital);
+Camera cameraCamera = photographer.removeCamera();
+assertNotNull(cameraCamera);
+}
+
 
 
 }
