@@ -34,6 +34,10 @@ Camera cameraCamera = photographer.removeCamera();
 assertNotNull(cameraCamera);
 }
 
+@Test
+public void canPrintCameraDetails(){
+
+}
 
 
 }
